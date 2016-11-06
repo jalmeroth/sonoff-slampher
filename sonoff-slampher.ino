@@ -1,8 +1,8 @@
 #include <Homie.h>
 
 #define PIN_BUTTON 0
-#define PIN_RELAY 12
-#define PIN_LED 13
+#define PIN_RELAY 12	// active on HIGH
+#define PIN_LED 13		// active on LOW
 
 HomieNode switchNode("switch", "switch");
 
